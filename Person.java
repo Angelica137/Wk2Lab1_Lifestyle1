@@ -5,6 +5,8 @@
  * @author Angelica Beristain
  * @version 17 March 2021
  */
+import java.util.*;
+
 public class Person {
 	double cmHeight;
 	double kgWeight;
@@ -42,6 +44,16 @@ public class Person {
 
 		System.out.println("Healthy pulse check = " + checkPulse());
 		System.out.print("Abusing Body = " + checkAbuser());
+
+	}
+
+	public void promptData() {
+		// prompt user for weight, height, weekly alcohol units
+		// and rest pulse
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter weight: ");
+		kgWeight = sc.nextDouble();
 
 	}
 
