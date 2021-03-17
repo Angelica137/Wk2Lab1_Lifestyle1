@@ -66,4 +66,11 @@ public class Person {
 
 	}
 
+	public double getBMI() {
+		// calculate and return a person's BMI.
+		double BMI = kgWeight / (cmHeight * cmHeight) * 10000;
+		System.out.println(BMI);
+		return BMI;
+	}
+
 }
