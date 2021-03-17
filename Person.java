@@ -43,7 +43,8 @@ public class Person {
 		System.out.println("���Health Profile��");
 
 		System.out.println("Healthy pulse check = " + checkPulse());
-		System.out.print("Abusing Body = " + checkAbuser());
+		System.out.println("Abusing Body = " + checkAbuser());
+		System.out.println("BMI " + getBMI());
 
 	}
 
@@ -69,7 +70,6 @@ public class Person {
 	public double getBMI() {
 		// calculate and return a person's BMI.
 		double BMI = kgWeight / (cmHeight * cmHeight) * 10000;
-		System.out.println(BMI);
 		return BMI;
 	}
 
