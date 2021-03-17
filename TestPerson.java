@@ -5,7 +5,6 @@ public class TestPerson {
 		// Create Person object and test the methods
 		Person p = new Person();
 		p.promptData();
-		p.getBMI();
 
 	}
 
