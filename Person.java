@@ -55,6 +55,15 @@ public class Person {
 		System.out.println("Enter weight: ");
 		kgWeight = sc.nextDouble();
 
+		System.out.println("Enter height: ");
+		cmHeight = sc.nextDouble();
+
+		System.out.println("Enter weekly alcohol units: ");
+		weeklyAlcholUnits = sc.nextInt();
+
+		System.out.println("Enter rest pulse: ");
+		restPulse = sc.nextInt();
+
 	}
 
 }
